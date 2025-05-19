@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+<head>
+    <title>Even odd form app</title>
+    <style>
+        /* CSS styles can be added here */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            font-size: 30px;
+            background-color: rgb(240, 106, 106);
+            color: black;
+        }
+        /* Additional styles can be added as needed */
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Even odd form Application</h1>
+        <form>
+        {{fm}}
+        <br><br>
+        <input type="submit" value="Find" style="background-color: aliceblue;">
+    </form>
+    {{msg}}
+</center>
+
+</body>
+</html>
